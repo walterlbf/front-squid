@@ -9,21 +9,23 @@ async function fetchPhots() {
   return response;
 };
 
-const appendItemList = (height, width, url, link) => {
-
+const newTagPhoto = (_id, link, height, width, url) => {
+  const newTagA = document.createElement('a');
   const newImg = document.createElement('img');
-  document.querySelector('div').appendChild(newImg);
-
-  // console.log(url);
+  newTagA.href = link;
   newImg.src = url;
   newImg.width = width;
   newImg.height = height;
-}
+  document.querySelector('div').appendChild(newTagA);
+  newTagA.appendChild(newImg);
+};
 
 const mapPhotos = (getPhotos) => {
-  getPhotos.map(({ link, imagens: { resolucaoMedia: { height, width, url } } }) => {
-    appendItemList(height, width, url, link);
+  console.log(getPhotos)
+  getPhotos.map(({ _id, link, imagens: { resolucaoMedia: { height, width, url } } }) => {
+    newTagPhoto(_id, link, height, width, url);
   });
+
 };
 
 window.onload = async function () {
