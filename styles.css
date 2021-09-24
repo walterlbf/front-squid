@@ -6,4 +6,9 @@
 
 body {
   background: #fff;
+  background-image: url('./assets/background.svg');
+}
+
+header {
+  text-align: center;
 }
