@@ -17,3 +17,8 @@ Caso trenha algum problema com endpoint, ou alguma duvida sobre o teste abra uma
 
 ## Resultado Final
 ![Resultado](assets/result.jpeg "Resultado")
+
+#Notas do Desenvolvedor
+- falta deixar responsivo para telas menores
+- falta organizar informações dentro da foto
+- utlizei Tailwind CSS para o layout Grid
