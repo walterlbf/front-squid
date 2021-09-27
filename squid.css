@@ -7,6 +7,19 @@ header {
   text-align: center;
 }
 
-.row {
-  display: flex;
+.foto {
+  text-align: center;
+  position: relative;
+}
+
+a {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+.info {
+  display: none;
 }
