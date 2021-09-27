@@ -1,0 +1,22 @@
+body {
+  background: #fff;
+  background-image: url('./assets/background.svg');
+}
+
+header {
+  text-align: center;
+}
+
+.photo {
+  padding: 5px;
+  object-fit: cover;
+}
+/* 
+.imgHeader {
+  width: 200px;
+  height: 200px;
+} */
+
+a {
+  text-align: center;
+}
