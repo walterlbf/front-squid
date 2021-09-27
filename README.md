@@ -1,6 +1,6 @@
 # Front-end - Avalição Squid
 
-##Notas do Desenvolvedor
+## Notas do Desenvolvedor
 - falta deixar responsivo para telas menores
 - falta organizar informações dentro da foto
 - utlizei Tailwind CSS(importado no head do html) para o layout Grid pois nao consegui instalar o framework Squid CSS;
