@@ -1,5 +1,10 @@
 # Front-end - Avalição Squid
 
+##Notas do Desenvolvedor
+- falta deixar responsivo para telas menores
+- falta organizar informações dentro da foto
+- utlizei Tailwind CSS(importado no head do html) para o layout Grid pois nao consegui instalar o framework Squid CSS;
+
 ## Proposta
 Criar uma página HTML utilizando de ponto de partida esse repositório.
 Depois, utilizando Javascript pegar os dados do JSON da requisição `(GET) - https://us-central1-squid-apis.cloudfunctions.net/test-front-basic`.
@@ -17,8 +22,3 @@ Caso trenha algum problema com endpoint, ou alguma duvida sobre o teste abra uma
 
 ## Resultado Final
 ![Resultado](assets/result.jpeg "Resultado")
-
-#Notas do Desenvolvedor
-- falta deixar responsivo para telas menores
-- falta organizar informações dentro da foto
-- utlizei Tailwind CSS para o layout Grid
